@@ -2,3 +2,12 @@
 * Created on: Sep 2020
 * This file contains the CSS for index.html
 */
+* {
+    text-align: center;
+    font-size: 200%;
+    background-color:rgb(44, 44, 81);
+    color: rgb(255, 60, 0);
+}
+h1 span {
+    background-color: rgb(32, 22, 85);
+}

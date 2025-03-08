@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+ <head lang="en-ca">
+  <!--Meta data-->
+   <meta charset="utf-8">
+   <meta name="description" content="Fun and useful websites">
+   <meta name="keyword" content="Fun websites">
+   <meta name="author" content="Websiter">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--CSS style sheet-->
+     <link rel="stylesheet" href="css/style2.css">
+  <!-- MDL link-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-deep_orange.min.css" />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+  <!--Title-->
+    <title>Website List</title>
+  </head>
+    <body>
+     <!--Layout-->
+       <!-- Always shows a header, even in smaller screens. -->
+         <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+           <header class="mdl-layout__header">
+                <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">Fun Websites</span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation. We hide it in small screens. -->
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
+                    <a class="mdl-navigation__link" href="/Assign/Assign-01/Assign-01-HTML-Website/index.html">Home</a>
+                </nav>
+                </div>
+            </header>
+            <div class="mdl-layout__drawer">
+                <span class="mdl-layout-title">Quick Access Menu</span>
+                <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="https://everynoise.com/">everynoise.com</a>
+                <a class="mdl-navigation__link" href="https://theuselessweb.com/">theuselessweb.com</a>
+                <a class="mdl-navigation__link" href="https://haveibeenpwned.com/">haveibeenpwned.com</a>
+                <a class="mdl-navigation__link" href="https://web.archive.org/">web.archive.org</a>
+                <a class="mdl-navigation__link">Under Construction...</a>
+                </nav>
+            </div>
+              <main class="mdl-layout__content">
+                <div class="page-content">
+                    <!--Heading and the first few paragraphs-->
+                    <h1>Choose a website!</h1>
+                    <p>Fun websites are <span class="h1">orange</span>, helpful websites are <span class=h2>yellow</span></p>
+                    <p>Press the "?" button next to the name to view a brief description.</p>
+                    <!--Website list-->
+                    <div class="container">
+                        <ul class="list">
+                        <li><a href="https://everynoise.com/">everynoise.com</a>
+                            <!-- MDL ? button -->
+                            <button class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored"onclick="buttonClickEN()"><i class="material-icons">?</i></button>
+                        </li>
+                        <li><a href="https://theuselessweb.com/">theuselessweb.com</a>
+                            <!-- MDL ? button -->
+                            <button class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored" onclick="buttonClickTUW()" ><i class="material-icons">?</i></button>
+                        </li>
+                        <li class="yellow"><a href="https://haveibeenpwned.com/" class="yellow">haveibeenpwned.com</a>
+                            <!-- MDL ? button -->
+                            <button class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored" onclick="buttonClickHIBP()"><i class="material-icons">?</i></button>
+                        </li>
+                        <li class="yellow"><a href="https://web.archive.org/" class="yellow">web.archive.org</a>
+                            <!-- MDL ? button -->
+                            <button class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored" onclick="buttonClickIA()"><i class="material-icons">?</i></button>
+                        </li>
+                        <li> More websites coming soon!</li>
+                        </ul>
+                        </div>
+                    </div>
+              </main>
+            </div>
+            <!--Javascript-->
+                <script>
+                    function buttonClickEN() {
+                alert ("Every Noise At Once is a website with a scatter-plot of music genres where down is more organic, up is more mechanical and electric; left is denser and more atmospheric, right is spikier and bouncier. You can click on each music genre and hear what it sounds like!")
+                }
+                function buttonClickTUW() {
+                alert ("The Useless Web is the hub of fun websites from across the web. It takes you to a random website that have different fun activities and games!")
+            }
+                function buttonClickHIBP() {
+                alert ("Have I Been Pwned helps you check if your email has been on any data breaches to improve your online safety and prevent getting hacked!")
+            }
+                function buttonClickIA() {
+                alert ("The Internet Archive is a digital library that preserves anything digital and hosts The Wayback Machine, which is an archive of almost every webpage at different time periods, this can help you see what did the website looked like before!")
+            }
+                </script>
+    </body>
+</html>

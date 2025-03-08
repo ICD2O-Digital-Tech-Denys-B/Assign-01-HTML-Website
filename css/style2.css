@@ -1,0 +1,28 @@
+* {
+    text-align: center;
+    background-color: rgb(44,44,81);
+    color: rgb(255, 60, 0);
+}
+a.yellow {
+    color:gold
+}
+li.yellow {
+    color: gold
+}
+i.material-icons {
+    color: rgb(125, 138, 255);
+    background-color: transparent;
+}div.container {
+    text-align: center;
+}
+
+ul.list {
+    display: inline-block;
+    text-align: left;
+}
+span.h1 {
+    color:#fb6a41;
+}
+span.h2 {
+    color:gold;
+}

@@ -1,9 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Title</title>
-  </head>
+ <head lang="en-ca">
+   <meta charset="utf-8">
+   <meta name="description" content="my first website with style">
+   <meta name="keyword" content="Fun websites">
+   <meta name="author" content="Websiter">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <!-- MDL link-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-orange.min.css" />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+   <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+   <title>Fun Websites</title>
+ </head>
   <body>
-    <p>Paragraph</p>
+   <!--Layout-->
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">Fun Websites</span>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation. We hide it in small screens. -->
+          <nav class="mdl-navigation mdl-layout--large-screen-only">
+            <a class="mdl-navigation__link" href="/Assign/Assign-01/Assign-01-HTML-Website/page2.html">List</a>
+          </nav>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Quick Access Menu</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="https://everynoise.com/">everynoise.com</a>
+          <a class="mdl-navigation__link" href="https://theuselessweb.com/">theuselessweb.com</a>
+          <a class="mdl-navigation__link" href="https://haveibeenpwned.com/">haveibeenpwned.com</a>
+          <a class="mdl-navigation__link" href="https://web.archive.org/">web.archive.org</a>
+          <a class="mdl-navigation__link">Under Construction...</a>
+        </nav>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="page-content">    <h1><span>Welcome to my website collection!</span></h1>
+        <p>Here I display fun and useful websites that will aid you in boredom and help you in the trying times.</p>
+        <p>Please note that I am not responsible for the contents of the websites, although I do provide description for each one, you must proceed to the sites at your own risk.</p>
+       <img src="https://media.discordapp.net/attachments/777609425534976020/1207299793605632061/cat_bounce_1.gif?ex=67cc358d&is=67cae40d&hm=76bb2551bb786f27615d8a3dac7453c80941ccf64aec4ebb859107f1c87b0cb1&=&width=375&height=375"></img>
+       <img src="https://media.discordapp.net/attachments/1025770806933987368/1142407543432421477/togif-4.gif?ex=67ccc72f&is=67cb75af&hm=fe6fc91ab838e8fdc9982358577355f7fb2b84a1ec239ce535c4ba7e02778cea&=&width=1240&height=649"></img></div>
+      </main>
+    </div>
   </body>
 </html>
